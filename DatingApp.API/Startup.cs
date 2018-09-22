@@ -118,7 +118,7 @@ namespace DatingApp.API
 
             // app.UseHttpsRedirection();
             // seeder.SeedUsers();
-            app.UseCors(x => x.WithOrigins("http://localhost:4200")
+            app.UseCors(x => x.WithOrigins("http://localhost:5000")
                 .AllowAnyHeader().AllowAnyMethod().AllowCredentials());
             app.UseAuthentication();
             app.UseDefaultFiles();
